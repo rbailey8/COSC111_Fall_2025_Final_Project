@@ -88,7 +88,7 @@ def run_game_loop():
         #4. Recycle Pipes
         #If pipe goes off screen to the left
         if pipe_x < -50: 
-           pipe_x = WID TH # Reset to right side
+           pipe_x = WIDTH # Reset to right side
            top_height = get_random_height() # Get new random height
 
         #5. Update Pipe Rects (We need new Rects because x moved!)
